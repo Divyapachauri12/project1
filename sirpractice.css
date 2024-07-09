@@ -1,0 +1,447 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* color: #fff; */
+    
+    }
+    main
+    {
+        height: 300vh;
+        background-color: black;
+        
+    }
+    
+    #home
+    {
+        background: url(https://templatemo.com/templates/templatemo_458_lavish/images/home-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 70px;
+        padding-bottom: 140px;
+        text-align: center;
+        justify-content: space-between;
+        
+        /* height: 750px;
+        width: 1400px; */
+        position: relative;
+        box-sizing: border-box;
+    }
+    .container
+    {
+        display: block;
+        unicode-bidi: isolate;
+
+    }
+    body
+    {
+        background: #555454;
+        color: #999;
+        font-family: sans-serif;
+        /* font-size: 20px; */
+        font-weight: 350;
+    
+    }
+    h3
+    {
+        color: #ffffff;
+        font-weight: bold;
+        margin-bottom: 65px;
+        margin-right: 50px;
+        padding: 40px 0 2px;
+        display: block;
+    }
+    
+    #home h1
+    {
+        border:2px solid #D43F52;
+        color: #D43F52;
+        display: inline;
+        letter-spacing: 6px;
+        padding: 25px 35px;
+        margin: 30px 0;
+
+
+    }
+    h1{
+        font-weight: bold;
+        font-size: 36px;
+
+    }
+    #home h2
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        display: block;
+        
+    }
+    h2:hover
+    {
+        color: rgb(170, 117, 52);
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 1.1;
+    }
+    p
+    {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-start: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        unicode-bidi: isolate;
+        color: #ada1a1;
+    }  
+    /* a
+    {
+        display: inline-block;
+        background: transparent;
+        margin-top: 25px;
+        margin-bottom: 35px;
+        
+        
+        border: 2px solid #f5eded;
+        font-size: 25px;
+        font-weight: bold;
+    
+       
+        transition: all;
+        text-decoration: none;
+
+    } */
+    a:hover{
+        background-color: #8b1424;
+        color: #fff;
+    }
+
+
+    /*services start*/
+        
+    
+
+
+    #services
+    {
+        background-color: rgb(26,26, 26);
+        
+        
+        padding: 2px;
+        height: 450px;
+        
+        
+        }
+
+    #services h3
+    {
+        font-size: 2em;
+        margin-top: 50px;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+        
+    }
+    #skills-container
+    {
+        display: flex;
+        width: 90%;
+        
+        margin: 0 auto;
+        margin-top: 30px;
+        gap: 20px;
+    }
+    span i 
+    {
+        border:2px solid white ;
+        padding: 16px 15px;
+        font-size: 1.1em;
+        color: rgba(192, 15, 15, 0.781);
+        border-radius: 50%;
+    }
+    .skill
+    {
+        display: flex;
+        gap: 30px;
+        
+        
+    }
+    .skill h4
+    {
+        font-size: 1,4em;
+        font-weight: 800;
+        
+        margin-bottom: 20px;
+        
+    }
+    .skill p
+    {
+        color: rgb(90, 95, 100);
+        
+        
+        
+        
+    }
+    /* .skill p a
+    {
+        display: flex;
+        color: rgb(9, 104, 141);
+        text-decoration: none;
+        
+        
+    } */
+     /*@media (max-width: 768px) {
+        .service {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .service-icon {
+            margin: 0 0 1rem 0;
+        }
+    
+        .service-content {
+            max-width: 100%;
+        }
+    }*/
+
+
+
+
+
+    /*about starts*/
+    #about
+    {
+        display: flex;
+        width: 80%;
+        padding: 50px 10px 0px;
+        margin: 0 auto;
+        height: 80vh;
+
+
+    }
+    #percent,
+     #info
+    {
+        flex: 1;
+
+    }
+    .data
+    {
+       display: flex;
+       justify-content: space-between;
+    }
+    #info h5
+    {
+        padding: 10px 0;
+        color:#D43F52;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        line-height: 1.1;
+    }
+    .data
+    {
+       display: flex;
+       justify-content: space-between;
+       margin-block-start: 1em;
+
+       
+       
+
+
+       
+    }
+    .line
+    {
+        height: 4px;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 15px auto;
+
+    }
+    .active
+    {
+        height: 100%;
+        border-radius: inherit;
+        background-color: rgba(179, 8, 8, 0.781);
+    }
+    .active-95
+    {
+        width: 95%;
+    }
+    .active-80
+    {
+        width: 80%;
+    }
+    .active-70
+    {
+        width: 70%;
+    }
+    .active-90
+    {
+        width: 90%;
+    }
+    /*start protfolio*/
+
+    #start
+    {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding-top: 50px;
+        /* margin: 0 auto;
+        margin-top: 0; */
+        /* margin-right: 40px; */
+        /* padding: 100px; */
+        background-color: rgb(26, 26, 26);
+        /* height: 155vh; */
+         
+    }
+    #startt h6
+    {
+        font-size: 2em;
+        padding-bottom: 30px;
+        
+        
+        padding-left: 470px;
+        font-weight: 600;
+        
+        text-transform: uppercase;
+        color: white;
+    }
+    .pro{
+        display: flex;
+    }
+    .pro img
+    {
+        overflow: hidden;
+        position: relative;
+        margin: 30px;
+        display: inline-flex;
+        vertical-align: middle;
+        transition: transform 0.4s ease-out;
+    
+    }
+    .pro img:hover{
+        transform: scale(1.1);
+    }
+    .pro-img{
+        width:537px;
+        height :400px;
+        justify-content: center;
+        transition: transform 0.4s ease-out;
+        gap: 20px;
+    }
+    .pro-img:hover{
+        transform: scale(1.03);
+    }
+    .pro11 h4,h7
+    {
+        background-color: #D43F52;
+        
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        padding-top: 60px;
+        transition: all 0.4s ease-in-out ;
+    }
+    
+    .pro-thumb
+    {
+        margin: -5px 25px 30px 25px;
+        display: flex !important;
+    }
+    /*contact*/
+    
+    section#contact
+    {
+        background-color:black;
+        color: white;
+        display: flex;
+        height: 616px;
+        justify-content: center;
+    }   
+    section#contact .content
+    {
+        margin-top: 100px;
+        
+        display: flex;
+        gap: 50px;
+        width: 70%;
+    }
+    .content .info
+    {
+        
+        flex: 2;
+
+    }
+    .content form
+    {
+        
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    input,
+    textarea
+    {
+        padding: 15px;
+        background-color: transparent;
+        border: 2px solid white;
+        font-size: 1em;
+    }
+    /*input::placeholder
+    {
+        color:rgba(179, 8, 8, 0.781);
+    }*/ 
+    
+    textarea
+    {
+        height: 100px;
+    }
+    form button
+    {
+        background-color: #8b1424;
+        padding: 15px;
+        font-size: 1em;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        outline: none;
+        border: none;
+    }
+    form button:hover
+    {
+        color: #8b1424;
+        background-color: white;
+    }
+    .info h9
+    {
+        font-size: 2em;
+        
+        margin-bottom: 35px;
+        
+        
+    }
+    .info div
+    {
+        margin-bottom: 10px;
+    }
+    .info i
+    {
+        padding: 10px;
+        border-radius: 100%;
+        border: 2px solid white;
+        color: rgba(179, 8, 8, 0.781);
+        margin-right: 10px;
+    }
+
+
